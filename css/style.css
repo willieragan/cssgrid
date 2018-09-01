@@ -1,0 +1,21 @@
+h1{
+text-align: center;
+}
+h6{
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+.grid-item{
+  background-image: url("../images/joker.jpg");
+  background-position: center;
+  padding: 20px;
+  margin: 20px;
+}
+.grid-item:nth-child(odd){
+
+}
